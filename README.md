@@ -20,11 +20,9 @@
 # Configuración de manifest
 Para poder publicar cualquier de nuestras aplicaciones necesitamos primero tener un archivo manifest.yml
 ![](assets/1.png)<br/> 
-El buildpack se asigna normalmente dinámicamente, en este caso como es una página estática si necesitamos especificarlo
+El buildpack se asigna normalmente dinámicamente, en este caso como es una página estática si necesitamos especificarlo: https://github.com/cloudfoundry/staticfile-buildpack Es importante tener un nombre personalizado único y creativo, dado que el dominio en que lo publicaremos usando IBM Cloud lo compartimos con todos los usuarios
 
-Debemos tener cuidado en la identación
-
-Es importante tener un nombre personalizado único y creativo, dado que el dominio en que lo publicaremos usando IBM Cloud lo compartimos con todos los usuarios
+Para ver que tipo de buildpacks podemos utilizar podemos acceder a la documentación de [**Cloud Foundry**](https://docs.cloudfoundry.org/buildpacks/)<br/>
 # Creación del servicio
 1. Entrar al portal de [**IBM Cloud**](https://cloud.ibm.com/)
 2. Ir al catalogo
