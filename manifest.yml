@@ -1,0 +1,5 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  name: Puppy_IC_012973484
+  memory: 56M
