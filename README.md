@@ -1,4 +1,4 @@
-# IBM Recipe - Watson Assistant
+# IBM Recipe - Continuous Delivery - Estático
 ![](assets/assistant.png)<br/> 
 
 ¡Aprende a hacer un Continuous Delivery para publicar tus aplicaciones al instante!
@@ -18,18 +18,20 @@
 2.	Una vez que tengamos el código nos vamos a Gestionar>Facturación y Uso>Facturación
 3.	Buscamos “Códigos de características (Promocionales)”
 # Configuración de manifest
-Para poder publicar cualquier de nuestras aplicaciones necesitamos primero tener un archivo manifest.yml
+Para poder publicar cualquiera de nuestras aplicaciones necesitamos primero tener un archivo manifest.yml
+
 ![](assets/1.png)<br/> 
-El buildpack se asigna normalmente dinámicamente, en este caso como es una página estática si necesitamos especificarlo: https://github.com/cloudfoundry/staticfile-buildpack Es importante tener un nombre personalizado único y creativo, dado que el dominio en que lo publicaremos usando IBM Cloud lo compartimos con todos los usuarios
+
+El buildpack se asigna normalmente dinámicamente, en este caso como es una página estática si necesitamos especificarlo: https://github.com/cloudfoundry/staticfile-buildpack Es importante tener un nombre personalizado único y creativo, dado que el dominio en que lo publicaremos usando IBM Cloud lo compartimos con todos los usuarios. La URL de nuestra aplicación será NombrePersonalizado.mybluemix.net
 
 Para ver que tipo de buildpacks podemos utilizar podemos acceder a la documentación de [**Cloud Foundry**](https://docs.cloudfoundry.org/buildpacks/)<br/>
 # Creación del servicio
 1. Entrar al portal de [**IBM Cloud**](https://cloud.ibm.com/)
-2. Ir al catalogo
+2. Ir al catálogo
 
-![](assets/1.png)<br/> 
+![](assets/100.png)<br/> 
 
-3. Seleccionar la opción AI del menú lateral y dar clic en el servicio “WatsonAssistant”.
+3. Seleccionar la opción Developer Tools del menú lateral y dar clic en el servicio “Continuous Delivery”.
 
 ![](assets/2.png)<br/> 
 
