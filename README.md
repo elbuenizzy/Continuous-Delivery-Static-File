@@ -1,9 +1,8 @@
 # IBM Recipe - Watson Assistant
 ![](assets/assistant.png)<br/> 
 
-Aprende a crear un asistente virtual para ordenar tacos!
+¡Aprende a hacer un Continuous Delivery para publicar tus aplicaciones al instante!
 # Pre-requisitos
-•	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
 •	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
 •	Tener una cuenta en [**Github**](https://github.com).<br/>
 •	Clonar este Repositorio.<br/> 
@@ -18,6 +17,14 @@ Aprende a crear un asistente virtual para ordenar tacos!
 1.	Ingresamos a nuestro panel de control de IBM Cloud (console.bluemix.net)
 2.	Una vez que tengamos el código nos vamos a Gestionar>Facturación y Uso>Facturación
 3.	Buscamos “Códigos de características (Promocionales)”
+# Configuración de manifest
+Para poder publicar cualquier de nuestras aplicaciones necesitamos primero tener un archivo manifest.yml
+![](assets/1.png)<br/> 
+El buildpack se asigna normalmente dinámicamente, en este caso como es una página estática si necesitamos especificarlo
+
+Debemos tener cuidado en la identación
+
+Es importante tener un nombre personalizado único y creativo, dado que el dominio en que lo publicaremos usando IBM Cloud lo compartimos con todos los usuarios
 # Creación del servicio
 1. Entrar al portal de [**IBM Cloud**](https://cloud.ibm.com/)
 2. Ir al catalogo
