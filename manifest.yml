@@ -1,5 +1,5 @@
 ---
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack
-  name: azulclarito
+  name: morado63
   memory: 64M
