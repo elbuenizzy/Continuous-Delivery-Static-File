@@ -1,5 +1,5 @@
 ---
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack
-  name: rojo007
+  name: rojo007i9234
   memory: 64M
